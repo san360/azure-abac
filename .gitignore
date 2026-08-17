@@ -1,0 +1,30 @@
+# Azure CLI and local deployment artifacts
+.azure/
+*.out
+*.log
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.publishsettings
+local.settings.json
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+
+# Bicep build output
+*.json
+!**/*.parameters.json
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

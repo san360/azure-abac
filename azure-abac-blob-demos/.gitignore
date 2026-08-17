@@ -1,0 +1,12 @@
+# Azure CLI / local artifacts
+.azure/
+*.out
+*.log
+
+# Bicep build output
+*.json
+!bicep/**/*.parameters.json
+
+# OS noise
+Thumbs.db
+.DS_Store
